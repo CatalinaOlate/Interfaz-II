@@ -10,4 +10,3 @@ void loop() {
   // No es necesario poner nada en el loop para este ejemplo
 }
 
-´´´
