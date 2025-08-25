@@ -111,6 +111,6 @@ void loop() {
 //  delay(2000); // 2 segundos
 }
 ```
-<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/CircuitoSemaforo.png"/>
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/Captura%20de%20pantalla%202025-08-25%20104841.png"/>
 <img src=""/>
 
