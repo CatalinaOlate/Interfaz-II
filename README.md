@@ -10,6 +10,7 @@ void loop() {
   // No es necesario poner nada en el loop para este ejemplo
 }
 ```
+<img src=""/>
 
 ### Ejercicio n°2: LED Intermitente
 ```js
@@ -30,6 +31,7 @@ void loop() {   // Se repite infinitamente
   delay(2000);             // Esperar 1 segundo
 }
 ```
+<img src=""/>
 
 ### Ejercicio n°3: LED Pulsador
 ```js
@@ -45,6 +47,7 @@ void loop() {
   }
 }
 ```
+<img src=""/>
 
 ### Ejercicio n°4: LED Potenciómetro
 
@@ -58,6 +61,7 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
+<img src=""/>
 
 ### Ejercicio n°5: LED Semáforo
 
@@ -107,6 +111,6 @@ void loop() {
 //  delay(2000); // 2 segundos
 }
 ```
-<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/Semaforo.png"/>
-
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/CircuitoSemaforo.png"/>
+<img src=""/>
 
