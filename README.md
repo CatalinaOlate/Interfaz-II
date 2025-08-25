@@ -31,7 +31,7 @@ void loop() {   // Se repite infinitamente
   delay(2000);             // Esperar 1 segundo
 }
 ```
-<img src=""/>
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/LedIntermitente.png"/>
 
 ### Ejercicio n°3: LED Pulsador
 ```js
