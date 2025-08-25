@@ -106,8 +106,7 @@ void loop() {
 //  digitalWrite(LED_5, HIGH);  // Rojo peatones encendido
 //  delay(2000); // 2 segundos
 }
-https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/Semaforo.png
 ```
-
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/Semaforo.png"/>
 
 
