@@ -47,7 +47,7 @@ void loop() {
   }
 }
 ```
-<img src=""/>
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/LedPulsador.png"/>
 
 ### Ejercicio n°4: LED Potenciómetro
 
