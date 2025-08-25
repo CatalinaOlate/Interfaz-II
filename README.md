@@ -61,7 +61,7 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
-<img src=""/>
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/Captura%20de%20pantalla%202025-08-25%20104448.png"/>
 
 ### Ejercicio n°5: LED Semáforo
 
