@@ -127,5 +127,96 @@ void loop() {
 }
 ```
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/Captura%20de%20pantalla%202025-08-25%20104841.png"/>
+
+### Ejercicio n°6: 
+```js
+
+```
+<img src=""/>
+ 
+ // Dibujar círculos almacenados
+  fill(250, 200, 0);
+  //noStroke();
+  stroke(255, 0, 350);
+  for (PVector c : circles) {
+    ellipse(c.x, c.y, 80, 80);
+  }
+  
+  // Revisar si llega algo de Arduino
+  if (myPort.available() > 0) {
+    String val = myPort.readStringUntil('\n');
+    if (val != null) {
+      val = trim(val);
+      if (val.equals("1")) {
+        // Cada vez que se aprieta el botón, agregar un círculo en posición aleatoria
+        circles.add(new PVector(random(width), random(height)));
+      }
+    }
+  }
+}
+
 <img src=""/>
 
+### Ejercicio n°6: 
+```js
+
+```
+<img src=""/>
+
+
+import processing.serial.*;
+
+Serial myPort;
+ArrayList<CircleData> circles; 
+
+void setup() {
+  size(1200, 720);
+  background(0);
+  
+  // Ajusta el puerto según tu Arduino
+  println(Serial.list());
+ // myPort = new Serial(this, "/dev/cu.usbmodem1101", 9600);
+  myPort = new Serial(this, Serial.list()[0], 9600);
+  
+  circles = new ArrayList<CircleData>();
+}
+
+void draw() {
+  //background(0);
+  
+  // Dibujar todos los círculos guardados
+  //fill(0, 150, 255);
+  //noStroke();
+  fill(0, 0, 0);
+  stroke(255, 0, 0);
+  for (CircleData c : circles) {
+    ellipse(c.x, c.y, c.size, c.size);
+  }
+  
+  // Leer datos de Arduino
+  if (myPort.available() > 0) {
+    String val = myPort.readStringUntil('\n');
+    if (val != null) {
+      val = trim(val);
+      if (val.startsWith("BTN")) {
+        // Extraer el valor del potenciómetro
+        String[] parts = split(val, ',');
+        if (parts.length == 2) {
+          float potVal = float(parts[1]);
+          float circleSize = map(potVal, 0, 1023, 10, 100); // tamaño 10-100 px
+          circles.add(new CircleData(random(width), random(height), circleSize));
+        }
+      }
+    }
+  }
+}
+
+// Clase para guardar datos de cada círculo
+class CircleData {
+  float x, y, size;
+  CircleData(float x, float y, float size) {
+    this.x = x;
+    this.y = y;
+    this.size = size;
+  }
+}
