@@ -148,7 +148,7 @@ void loop() {
   }
 }
 ```
-Código Processing
+Código Processing:
 ```js
  // Dibujar círculos almacenados
   fill(250, 200, 0);
@@ -196,7 +196,7 @@ void loop() {
 }
 ```
 
-Código Processing
+Código Processing:
 ```js
 import processing.serial.*;
 
