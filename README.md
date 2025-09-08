@@ -255,7 +255,45 @@ class CircleData {
   }
 }
 ```
+### Ejercicio n°: Estructuras de control en Arduino
+For:
+```js
+void setup() {
+  Serial.begin(9600);   // Inicia la comunicación serial
 
+  for (int i = 0; i < 5; i++) {
+    Serial.println(i);  // imprime 0,1,2,3,4
+  }
+}
+
+void loop() {
+  // vacío porque no necesitamos repetir
+}
+```
+
+If:
+```js
+int valor;  // aquí guardaremos la lectura del sensor
+
+void setup() {
+  Serial.begin(9600);   // Inicia la comunicación serial
+}
+
+void loop() {
+  valor = analogRead(A0);   // lee el pin analógico A0
+
+  if (valor < 300) {
+    Serial.println("Muy bajo");
+  } else if (valor < 800) {
+    Serial.println("Medio");
+  } else {
+    Serial.println("Alto");
+  }
+
+  delay(500); // medio segundo entre lecturas
+}
+```
+<img src=""/>
 
 ### Ejercicio n°: 
 ```js
