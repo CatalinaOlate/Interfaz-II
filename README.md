@@ -271,7 +271,7 @@ void loop() {
 }
 ```
 
-If:
+If/Else:
 ```js
 int valor;  // aquí guardaremos la lectura del sensor
 
@@ -293,6 +293,30 @@ void loop() {
   delay(500); // medio segundo entre lecturas
 }
 ```
+For & If/Else:
+```js
+int leds[] = {2, 3, 4, 5}; // Creamos un arreglo con los pines donde van conectados los LEDs
+
+void setup() {
+  // Esta función corre solo una vez al iniciar Arduino
+  for (int i = 0; i < 4; i++) {         // Recorre el arreglo desde i = 0 hasta i = 3
+    pinMode(leds[i], OUTPUT);           // Configura cada pin del arreglo como salida (para controlar LEDs)
+  }
+}
+
+void loop() {
+  // Esta función corre en bucle infinito
+  for (int i = 0; i < 4; i++) {         // Recorre los 4 LEDs, uno por uno
+    if (i % 1 == 0) {                   // Si el índice es par (0, 2)...
+      digitalWrite(leds[i], HIGH);      // Enciende el LED correspondiente
+    } else {                            // Si el índice es impar (1, 3)...
+      digitalWrite(leds[i], LOW);       // Apaga el LED correspondiente
+    }
+    delay(500);                         // Espera 0,5 segundos antes de pasar al siguiente
+  }
+}
+```
+
 <img src=""/>
 
 ### Ejercicio n°: 
