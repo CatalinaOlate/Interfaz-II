@@ -128,12 +128,28 @@ void loop() {
 ```
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/Captura%20de%20pantalla%202025-08-25%20104841.png"/>
 
-### Ejercicio n°6: 
+### Ejercicio n°6: Arduino-Botón-Processing
+Código Arduino:
 ```js
+int buttonPin = 2;  // Pin del botón
+int buttonState = 0;
 
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP); // Botón con resistencia interna
+  Serial.begin(9600);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {   // Botón presionado
+    Serial.println(1);        // Enviar un "1" a Processing
+    delay(200);               // Evitar rebotes
+  }
+}
 ```
-<img src=""/>
- 
+Código Processing
+```js
  // Dibujar círculos almacenados
   fill(250, 200, 0);
   //noStroke();
@@ -154,16 +170,34 @@ void loop() {
     }
   }
 }
-
-<img src=""/>
-
-### Ejercicio n°6: 
-```js
-
 ```
-<img src=""/>
 
+### Ejercicio n°7: Arduino-Botón-Potenciómetro-Processing
+Código Arduino:
+```js
+int buttonPin = 2;       // Pin del botón
+int potPin = A0;         // Pin del potenciómetro
+int buttonState = 0;
 
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP); // Botón con resistencia interna
+  Serial.begin(9600);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {   // Botón presionado
+    int potValue = analogRead(potPin);   // 0 - 1023
+    Serial.print("BTN,");     // etiqueta para Processing
+    Serial.println(potValue); // mando el valor junto con el evento
+    delay(200);               // debounce simple
+  }
+}
+```
+
+Código Processing
+```js
 import processing.serial.*;
 
 Serial myPort;
@@ -220,3 +254,11 @@ class CircleData {
     this.size = size;
   }
 }
+```
+
+
+### Ejercicio n°: 
+```js
+
+```
+<img src=""/>
