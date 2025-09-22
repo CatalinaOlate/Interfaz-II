@@ -364,7 +364,7 @@ void loop() {
 }
 ```
 
-### Ejercicio n°9: Botonera: 
+### Ejercicio n°9: Botonera con sonido 
 Arduino
 ```js
 // --- Configuración de botones ---
