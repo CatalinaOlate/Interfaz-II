@@ -517,6 +517,7 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-09-22%20104913.png"/>
 
 ### Ejercicio n°: 
 ```js
