@@ -12,6 +12,8 @@ void loop() {
 ```
 
 ### Ejercicio n°2: LED Parpadeante
+
+Arduino
 ```js
 void setup() {  // Configuración inicial (ej: pines como entrada/salida)
   pinMode(13, OUTPUT);  // Pin 13 como salida
@@ -34,6 +36,7 @@ void loop() {   // Se repite infinitamente
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-09-29%20at%2009.49.51.jpeg?raw=true"/>
 
 ### Ejercicio n°3: LED Pulsador
+Arduino
 ```js
 void setup() {
   pinMode(2, INPUT);  // Botón como entrada
@@ -179,7 +182,7 @@ void loop() {
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-09-29%20at%2009.49.50.jpeg?raw=true"/>
 
 ### Ejercicio n°6: Potenciometro-Processing
-Código Arduino
+Arduino
 ```js
 unsigned int ADCValue;
 void setup() {
@@ -195,7 +198,7 @@ delay(50);
 }
 ```
 
-Código Processing
+Processing
 ```js
 import processing.serial.*;
 
@@ -242,7 +245,7 @@ void draw()
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-10-06%20at%2000.17.54.jpeg?raw=true"/>
 
 ### Ejercicio n°7: Arduino-Botón-Processing
-Código Arduino:
+Arduino:
 ```js
 int buttonPin = 2;  // Pin del botón
 int buttonState = 0;
@@ -261,7 +264,7 @@ void loop() {
   }
 }
 ```
-Código Processing:
+Processing:
 ```js
 import processing.serial.*;
 
@@ -307,7 +310,7 @@ void draw() {
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-06%20100911.png?raw=true"/>
 
 ### Ejercicio n°8: Arduino-Botón-Potenciómetro-Processing
-Código Arduino:
+Arduino:
 ```js
 int buttonPin = 2;       // Pin del botón
 int potPin = A0;         // Pin del potenciómetro
@@ -330,7 +333,7 @@ void loop() {
 }
 ```
 
-Código Processing:
+Processing:
 ```js
 import processing.serial.*;
 
