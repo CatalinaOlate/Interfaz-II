@@ -607,5 +607,33 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
+
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-09-22%20104913.png"/>
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Copia%20de%20WhatsApp%20Image%202025-09-29%20at%2009.49.51.jpeg?raw=true"/>
+
+
+
+Arduino
+```js
+void setup() {
+  pinMode(2, INPUT);  // Botón como entrada
+  pinMode(13, OUTPUT);
+
+    pinMode(4, INPUT);  // Botón como entrada
+  pinMode(10, OUTPUT);
+}
+void loop() {
+  if (digitalRead(2) == HIGH) {  // Si se presiona el botón
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+
+    if (digitalRead(4) == HIGH) {  // Si se presiona el botón
+    digitalWrite(10, HIGH);
+  } else {
+    digitalWrite(10, LOW);
+  }
+}
+```
+
