@@ -389,6 +389,8 @@ class CircleData {
   }
 }
 ```
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-06%20102528.png?raw=true"/>
+
 ### Ejercicio n°9: Estructuras de control en Arduino
 For:
 ```js
