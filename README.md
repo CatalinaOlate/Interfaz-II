@@ -304,6 +304,7 @@ void draw() {
   }
 }
 ```
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-06%20100911.png?raw=true"/>
 
 ### Ejercicio n°8: Arduino-Botón-Potenciómetro-Processing
 Código Arduino:
