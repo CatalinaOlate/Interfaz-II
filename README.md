@@ -452,7 +452,7 @@ void loop() {
   }
 }
 ```
-<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Sin%20título.png?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-06%20105325.png?raw=true"/>
 
 ### Ejercicio n°10: Botonera con sonido 
 Arduino
@@ -636,5 +636,7 @@ void loop() {
   }
 }
 ```
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251006_104353.jpg?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251006_104357.jpg?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251006_104404%20(1).jpg?raw=true"/>
 
