@@ -605,9 +605,3 @@ void playTrack(int index) {
 ```
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-09-22%20104913.png"/>
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Copia%20de%20WhatsApp%20Image%202025-09-29%20at%2009.49.51.jpeg?raw=true"/>
-
-### Ejercicio n°: 
-```js
-
-```
-<img src=""/>
