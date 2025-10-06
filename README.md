@@ -31,7 +31,7 @@ void loop() {   // Se repite infinitamente
 }
 ```
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/LedIntermitente.png"/>
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-09-29%20at%2009.49.51.jpeg?raw=true"/>
 
 ### Ejercicio n°3: LED Pulsador
 ```js
@@ -175,7 +175,7 @@ void loop() {
 }
 ```
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/Captura%20de%20pantalla%202025-08-25%20104841.png"/>
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-09-29%20at%2009.49.50.jpeg?raw=true"/>
 
 ### Ejercicio n°6: Potenciometro-Processing
 Código Arduino
@@ -237,6 +237,8 @@ void draw()
   ellipse(width/2, height/2, d, d);   
 }
 ```
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/arduino_processing2.png?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-10-06%20at%2000.17.54.jpeg?raw=true"/>
 
 ### Ejercicio n°7: Arduino-Botón-Processing
 Código Arduino:
@@ -446,6 +448,7 @@ void loop() {
   }
 }
 ```
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Sin%20título.png?raw=true"/>
 
 ### Ejercicio n°10: Botonera con sonido 
 Arduino
