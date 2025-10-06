@@ -48,7 +48,6 @@ void loop() {
 }
 ```
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/LedPulsador.png"/>
-<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-10-06%20at%2000.40.49.jpeg?raw=true"/>
 
 ### Ejercicio n°4: LED Potenciómetro
 
@@ -63,6 +62,7 @@ void loop() {
 }
 ```
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/Captura%20de%20pantalla%202025-08-25%20104448.png"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-10-06%20at%2000.40.49.jpeg?raw=true"/>
 
 ### Ejercicio n°5: LED Semáforo
 Semáforo:
@@ -612,7 +612,7 @@ void playTrack(int index) {
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Copia%20de%20WhatsApp%20Image%202025-09-29%20at%2009.49.51.jpeg?raw=true"/>
 
 
-
+### Entrega 1: Botón Pulsador Doble
 Arduino
 ```js
 void setup() {
@@ -636,4 +636,5 @@ void loop() {
   }
 }
 ```
+<img src=""/>
 
