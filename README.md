@@ -643,7 +643,7 @@ void loop() {
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251006_104357.jpg?raw=true"/>
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251006_104404%20(1).jpg?raw=true"/>
 
-### Ejercicio n°11: Sensor Distancia Visual
+### Ejercicio n°11: Sensor Sharp
 Arduino
 ```js
 // Definir el pin del sensor Sharp
@@ -706,6 +706,22 @@ void draw()
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-13%20095120.png?raw=true"/>
 
 
+### Ejercicio n°12: Sensor de Humedad
+Arduino
+```js
+void setup()
+{
+  Serial.begin(9600);// abre el puerto serial y Establece la velocidad en baudios a 9600 bps
+}
+void loop()
+{
+  int sensorValue;
+  sensorValue = analogRead(0);   //conectar el sensor de humedad al pin analogo 0
+  Serial.println(sensorValue); //imprime el valor a serial.
+  delay(200);
+}
+```
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251013_102142.jpg?raw=true"/>
 
 
 ### Ejercicio n°:
