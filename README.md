@@ -677,7 +677,7 @@ void setup()
   noFill();
   String portName = "COM5";// Change the number (in this case ) to match the corresponding port number connected to your Arduino. 
 
-  myPort = new Serial(this, "/dev/cu.usbmodem1101", 9600);
+  myPort = new Serial(this, Serial.list() [0], 9600);
 }
 
 void draw()
@@ -702,8 +702,8 @@ void draw()
 
 }
 ```
-
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251013_095224.jpg?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-13%20095120.png?raw=true"/>
 
 
 
