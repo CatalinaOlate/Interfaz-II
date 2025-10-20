@@ -14,6 +14,10 @@
 12. [Sensor Sharp](#ejercicio-n11-sensor-sharp) <br>
 13. [Sensor de Humedad](#ejercicio-n12-sensor-de-humedad) <br>
 14. [](#) <br>
+15. [](#) <br>
+16. [](#) <br>
+17. [](#) <br>
+18. [](#) <br>
 
 [](#) <br> 
 
@@ -741,6 +745,30 @@ void loop()
 }
 ```
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251013_102142.jpg?raw=true"/>
+
+
+### Ejercicio n°:
+```js
+
+```
+<img src=""/>
+<img src=""/>
+
+
+### Ejercicio n°:
+```js
+
+```
+<img src=""/>
+<img src=""/>
+
+
+### Ejercicio n°:
+```js
+
+```
+<img src=""/>
+<img src=""/>
 
 
 ### Ejercicio n°:
