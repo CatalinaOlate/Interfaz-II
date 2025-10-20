@@ -8,11 +8,11 @@
 6. [Potenciometro Processing](#ejercicio-n6-potenciometro-processing) <br>
 7. [Arduino Botón Processing](#ejercicio-n7-arduino-bot%C3%B3n-processing) <br>
 8. [Arduino Botón Potenciómetro Processing](n#ejercicio-n8-arduino-bot%C3%B3n-potenci%C3%B3metro-processing) <br>
-9. [](#) <br>
-10. [](#) <br>
-11. [](#) <br>
-12. [](#) <br>
-13. [](#) <br>
+9. [Estructuras de Control en Arduino](#ejercicio-n9-estructuras-de-control-en-arduino) <br>
+10. [Botonera con Sonido](#ejercicio-n10-botonera-con-sonido) <br>
+11. [Entrega 1: Botón Pulsador Doble](#entrega-1-bot%C3%B3n-pulsador-doble) <br>
+12. [Sensor Sharp]#https://github.com/CatalinaOlate/Interfaz-II?tab=readme-ov-file#ejercicio-n11-sensor-sharp) <br>
+13. [Sensor de Humedad](#ejercicio-n12-sensor-de-humedad) <br>
 14. [](#) <br>
 
 [](#) <br> 
