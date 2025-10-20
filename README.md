@@ -13,7 +13,7 @@
 11. [Entrega 1: Botón Pulsador Doble](#entrega-1-bot%C3%B3n-pulsador-doble) <br>
 12. [Sensor Sharp](#ejercicio-n11-sensor-sharp) <br>
 13. [Sensor de Humedad](#ejercicio-n12-sensor-de-humedad) <br>
-14. [](#) <br>
+14. [Promedio de Imagenes](#ejercicio-n13-promedio-de-imagenes) <br>
 15. [](#) <br>
 16. [](#) <br>
 17. [](#) <br>
