@@ -11,7 +11,7 @@
 9. [Estructuras de Control en Arduino](#ejercicio-n9-estructuras-de-control-en-arduino) <br>
 10. [Botonera con Sonido](#ejercicio-n10-botonera-con-sonido) <br>
 11. [Entrega 1: Botón Pulsador Doble](#entrega-1-bot%C3%B3n-pulsador-doble) <br>
-12. [Sensor Sharp].(#ejercicio-n11-sensor-sharp) <br>
+12. [Sensor Sharp](#ejercicio-n11-sensor-sharp) <br>
 13. [Sensor de Humedad](#ejercicio-n12-sensor-de-humedad) <br>
 14. [](#) <br>
 
