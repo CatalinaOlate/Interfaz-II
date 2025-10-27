@@ -16,10 +16,7 @@
 14. [Promedio de Imagenes](#ejercicio-n13-promedio-de-imagenes) <br>
 15. [](#) <br>
 16. [](#) <br>
-17. [](#) <br>
-18. [](#) <br>
 
-[](#) <br> 
 
 
 ### Ejercicio n°1: Hola Mundo!
@@ -844,13 +841,3 @@ void calcAverage(float t) {
 ```
 <img src=""/>
 <img src=""/>
-
-
-### Ejercicio n°:
-```js
-
-```
-<img src=""/>
-<img src=""/>
-
-
