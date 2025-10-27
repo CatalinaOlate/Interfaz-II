@@ -14,7 +14,7 @@
 12. [Sensor Sharp](#ejercicio-n11-sensor-sharp) <br>
 13. [Sensor de Humedad](#ejercicio-n12-sensor-de-humedad) <br>
 14. [Promedio de Imagenes](#ejercicio-n13-promedio-de-imagenes) <br>
-15. [](#) <br>
+15. [Promedio de Imagenes con carpeta](#ejercicio-n14-promedio-de-imagenes-con-carpeta) <br>
 16. [](#) <br>
 
 
@@ -1006,9 +1006,9 @@ PImage[] loadImagesFromFolder(String folderName) {
   return loaded.toArray(new PImage[loaded.size()]);
 }
 ```
-<img src=""/>
-<img src=""/>
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-27%20094443.png?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-27%20094531.png?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-27%20094552.png?raw=true"/>
 
 ### Ejercicio n°:
 ```js
