@@ -630,10 +630,8 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
-
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-09-22%20104913.png"/>
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Copia%20de%20WhatsApp%20Image%202025-09-29%20at%2009.49.51.jpeg?raw=true"/>
-
 
 ### Entrega 1: Botón Pulsador Doble
 Arduino
@@ -679,7 +677,6 @@ void loop() {
   delay(1000); // Esperar un momento
 }
 ```
-
 Processing
 ```js
 import processing.serial.*;
@@ -724,7 +721,6 @@ void draw()
 ```
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/20251013_095224.jpg?raw=true"/>
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-13%20095120.png?raw=true"/>
-
 
 ### Ejercicio n°12: Sensor de Humedad
 Arduino
@@ -823,7 +819,6 @@ void calcAverage(float t) {
   avgImg.updatePixels();
 }
 ```
-
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-20%20110844.png?raw=true"/>
 
 
@@ -833,7 +828,6 @@ void calcAverage(float t) {
 ```
 <img src=""/>
 <img src=""/>
-
 
 ### Ejercicio n°:
 ```js
