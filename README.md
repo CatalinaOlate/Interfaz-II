@@ -822,10 +822,18 @@ void calcAverage(float t) {
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-20%20110844.png?raw=true"/>
 
 
-### Ejercicio n°:
+### Ejercicio n°14: Promedio de Imagenes con carpeta
 Arduino
 ```js
+void setup() {
+  Serial.begin(9600);
+}
 
+void loop() {
+  int potValue = analogRead(A0);
+  Serial.println(potValue);
+  delay(20);
+}
 ```
 Processing
 ```js
