@@ -1011,7 +1011,6 @@ PImage[] loadImagesFromFolder(String folderName) {
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/Captura%20de%20pantalla%202025-10-27%20094552.png?raw=true"/>
 
 ### Entrega Final: Desasosiego
-Descripción
 Realizaremos una secuencia de fotografías en blanco y negro que serán intervenidas posteriormente de forma análoga a partir de la tecnica rotoscopia. Haremos uso del ejercicio “promedio de Imágenes” a través de los programas Arduino IDE y Processing, y de un circuito que incluye un potenciómetro.
 
 Arduino
@@ -1201,7 +1200,7 @@ PImage[] loadImagesFromFolder(String folderName) {
 
 ```
 Storyboard
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/storyboard.jpg?raw=true"/>
 
 Boceto de Montaje
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/montaje.png?raw=true"/>
