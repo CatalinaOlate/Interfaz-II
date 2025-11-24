@@ -1050,7 +1050,7 @@ PImage avgImg;
 // --- Configuración inicial ---
 void setup() {
   // Define el tamaño de la ventana de Processing (ancho, alto)
-  size(1024, 720);
+  size(1200, 720);
   
   // Cargar imágenes desde carpeta "data/imagenes"
   // Llama a la función que busca todas las imágenes dentro de esa carpeta
@@ -1070,9 +1070,9 @@ void setup() {
   // Muestra en consola la lista de puertos seriales disponibles (para identificar cuál usar)
   printArray(Serial.list());
   // Alternativa automática (comentada): abrir el primer puerto disponible a 9600 baudios
-   myPort = new Serial(this, Serial.list()[0], 9600);
+// myPort = new Serial(this, Serial.list()[0], 9600);
   // Abrir un puerto específico (ejemplo para macOS). Ajusta según el puerto real en tu sistema.
-  //myPort = new Serial(this, "/dev/cu.usbmodem1101", 9600);
+  myPort = new Serial(this, "/dev/cu.usbmodem1201", 9600);
   // Nota: si no funciona el puerto, revisa la salida de printArray(Serial.list()) y usa el nombre correcto.
 }
 
@@ -1204,3 +1204,13 @@ Storyboard
 
 Boceto de Montaje
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/montaje.png?raw=true"/>
+
+Proceso
+<img src=""/>
+<img src=""/>
+
+Montaje Final
+<img src=""/>
+<img src=""/>
+<img src=""/>
+<img src=""/>
