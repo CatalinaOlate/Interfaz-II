@@ -1211,7 +1211,7 @@ Proceso
 <img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/IMG_0992.HEIC"/>
 
 Montaje Final
-<img src=""/>
-<img src=""/>
-<img src=""/>
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/159096ed-1c53-4b2c-9c22-722aa9c95e40.jpg?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/WhatsApp%20Image%202025-11-27%20at%2018.52.01.jpeg?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/88a2095a-8cb8-4a34-bc60-6d43cfaca265.jpg?raw=true"/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/aa1bf823-ac74-4370-b6cb-d1e9e8515833.jpg?raw=true"/>
