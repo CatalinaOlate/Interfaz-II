@@ -1206,8 +1206,9 @@ Boceto de Montaje
 <img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/montaje.png?raw=true"/>
 
 Proceso
-<img src=""/>
-<img src=""/>
+<img src="https://github.com/CatalinaOlate/Interfaz-II/blob/main/img/3e7fbbf7-dd20-4248-a55b-67d2bd2b3174.jpg?raw=true"/>
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/IMG_0991.HEIC"/>
+<img src="https://raw.githubusercontent.com/CatalinaOlate/Interfaz-II/refs/heads/main/img/IMG_0992.HEIC"/>
 
 Montaje Final
 <img src=""/>
